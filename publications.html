@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Publications – Tahmid Chowdhury</title>
+  <meta name="description" content="Publications by Tahmid Chowdhury" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="topbar">
+        <a class="brand" href="index.html">Tahmid Chowdhury</a>
+
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="publications.html" aria-current="page">Publications</a>
+          <a href="teaching.html">Teaching Assistanship</a>
+          <a href="resources.html">Resources</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Publications</h1>
+      <p class="subtitle">
+        Peer-reviewed papers, preprints, and technical reports.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Journal & Conference Papers</h2>
+      <ul class="list">
+        <li>
+          <strong>Paper Title One</strong><br>
+          Author A, Author B, <em>Journal / Conference</em>, Year.  
+          <a href="#">PDF</a> · <a href="#">DOI</a>
+        </li>
+        <li>
+          <strong>Paper Title Two</strong><br>
+          Author A, Author B, <em>Journal / Conference</em>, Year.  
+          <a href="#">PDF</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Preprints</h2>
+      <ul class="list">
+        <li>
+          <strong>Preprint Title</strong>, arXiv, Year.  
+          <a href="#">arXiv</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Tahmid Chowdhury</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
